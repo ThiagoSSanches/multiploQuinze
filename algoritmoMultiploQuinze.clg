@@ -1,0 +1,20 @@
+algoritmo multiploQuinze;
+// Síntese
+//  Objetivo:  calcular a soma dos múltiplos de 15 entre 1 e 500
+//  Entrada : 
+//  Saída   : 
+
+
+principal
+	// Declarações
+	inteiro numero;
+	inteiro i;
+	// Instruções
+	numero = 0;
+	para (i de 15 ate 495 passo 15) faca
+	numero = numero + i;
+	escreva("somando ", i, ", o valor da soma = ", numero, " ; ");
+	fimPara
+
+	
+fimPrincipal
